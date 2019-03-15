@@ -1,0 +1,10 @@
+mkdir gitmulu --进入特定的目录后再创建该文件夹
+cd gitmulu    --进入创建的文件夹
+cd ..         --回到上一级
+pwd           --文件夹的路径
+ls -ah        --目录下的所有文件
+git init      --进入该目录，执行后，把这个目录变成Git可以管理的仓库
+git add re.txt test.py --添加文件到缓存区
+git commit -m "修改说明"--添加缓存到仓库
+git status    --上次提交到缓存后，本地仓库的状态
+git log       --显示从最近到最远的提交日志
